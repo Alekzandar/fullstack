@@ -4,7 +4,9 @@
 	Stylesheet for Portfolio
 */
 
-
+*{
+	cursor: crosshair;
+}
 
 .container {
 	margin-left: auto;
@@ -12,9 +14,17 @@
 	width: 100%;
 	}
 
-.wrapper h1, h2, h3{
+.wrapper h1, h3{
 	font-family: "Exo";
 	text-align: center;
+
+}
+
+.wrapper h2{
+	font-family: "Exo";
+	text-align: center;
+	border: 1px solid orange;
+
 }
 
 .wrapper p {
