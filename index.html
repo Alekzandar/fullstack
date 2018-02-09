@@ -4,84 +4,99 @@
 		<meta charset="utf-8">
 		<title>Aleksandar L. Antonov's Portfolio</title>
 		<meta name = "viewport" content = "width = device-with, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Abel|Dosis|Montserrat|Questrial" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Cabin+Sketch|Exo|Playfair+Display+SC" rel="stylesheet">
 		<link rel="stylesheet" href="fonts.css">
 		<link rel="stylesheet" href="palette.css">
 		<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<section class = "header">
-	<h1 class ="font_exo"><u>Web Portfolio</u></h1>
-</section>
+	<div class = "container">
 
 
-
-<section class = "about">
-	<h3><tt>Hello, I'm Aleksandar L. Antonov.</tt></h3> 
-
-	<section class = "portrait">
-		<img src="standard.png" alt="Self" height="50%">
-	</section>
-	<hr>
-
-	<h2>A Bit 'About Me': </h2>
-	<p>
-	Student Developer soon to be set loose on <i>the world.</i> <br>
-	<u>Institution:</u> Bucknell University <br>
-	<u>Major:</u> Computer Science, B.S. <br>
-	<u>Year:</u> 2018 <br>
-	<u> Contact:</u> <a href="mailto:ala021@bucknell.edu">ala021@bucknell.edu</a> <br>
-	<u>Hometown:</u> Sopot, Bulgaria <br>
-	<br> 
-	This portfolio showcases my learning outcomes in the Full Stack Web Applications course. <br>Associated projects may be explored below. <br>
-	</p>
-</section>
-
-
-<hr>
-<section class = "course">
-	<h2>The Course:</h2>
-	<p><u>CSCI 379 - Full Web Stack Applications </u><br>
-		<u>Professor:</u> Alan Marchiori <br>
-		<u>Section:</u>   11:00 AM <br>
-	<br>
-	<div class = "work">
-	<h3>Course-Work And Assignments</h3>
-		<table border="1" >
-			<tr>
-				<th>Description</th>
-				<th>Link</th>
-			</tr>
-			<tr>
-				<td>Fonts for Headers and Descriptions</td>
-				<td><a href="./fontfun.html">Exploring Fonts</a></td>
-			</tr>
-		</table>
-	</secton>
-	</p>
-</section>
+		<section class = "header">
+			<h1>Web Portfolio</h1>
+			<h3><tt>Hello, I'm Aleksandar L. Antonov.</tt></h3> 
+		</section>
 
 
 
-<section class = "projects">
-	<h2>The Projects:</h2>
+		<section class = "wrapper">
 
-	<div class = "project-one">
-		<h3 class = "left">Project 1</h3>
-			<p> Reserved for future installment.</p>
+
+
+
+			<section class = "about">
+				<h2 class = "block"><u>A Bit 'About Me': </u></h2>
+				<p>
+					<img src="standard.png" alt="self">
+					Student Developer soon to be set loose on <i>the world.</i> <br>
+					<u><b>Institution:</b></u> Bucknell University <br>
+					<u><b>Major:</b></u> Computer Science, B.S. <br>
+					<u><b>Year:</b></u> 2018 <br>
+					<u><b>Contact:</b></u> <a href="mailto:ala021@bucknell.edu">ala021@bucknell.edu</a> <br>
+					<u><b>Hometown:</b></u> Sopot, Bulgaria <br>
+					<br> 
+					This portfolio showcases my learning outcomes in the Full Stack Web Applications course. <br>Associated projects may be explored below. <br>
+
+				</p>
+			</section>
+
+			<hr>
+
+
+			<section class = "course">
+				<h2 class = "block">The Course:</h2>
+					<p><u>CSCI 379 - Full Web Stack Applications </u><br>
+						<u>Professor:</u> Alan Marchiori <br>
+						<u>Section:</u>   11:00 AM <br>
+					<br>
+					<h3> Course-Work And Assignments</h3>
+						<table class = "table">
+							<tr>
+								<th>Description</th>
+								<th>Link</th>
+							</tr>
+							<tr>
+								<td>Fonts for Headers and Descriptions</td>
+								<td><a href="./fontfun.html">Exploring Fonts</a></td>
+							</tr>
+						</table>
+					</p>
+			</section>
+
+			<hr>
+
+
+
+			<section class = "projects">
+				<div id = "flex">
+					<h2 class = "block">The Projects:</h2>
+
+					<article class = "column">
+						<h3 id = "project-one">Project 1</h3>
+							<ul style="list-style-type:none">
+								<li><u>Phase 1:</u> CSS Styling and Positioning.
+					</article>
+
+					<article class = "column">
+						<h3 id = "project-two">Project 2</h3>
+							<p> Reserved for future installment.</p>
+					</article>
+
+					<article class = "column">
+						<h3 id = "project-three">Project 3</h3>
+							<p> Reserved for future installment.</p>
+					</article>
+
+				</div>
+			</section>
+
+
+		</section>
 	</div>
 
-	<div class = "project-two">
-		<h3 class = "center">Project 2</h3>
-			<p> Reserved for future installment.</p>
-	</div>
-
-	<div class = "project-three">
-		<h3 class = "right ">Project 3</h3>
-			<p> Reserved for future installment.</p>
-	</div>
-</section>
 
 </body>
 </html>

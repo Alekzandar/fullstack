@@ -4,89 +4,121 @@
 	Stylesheet for Portfolio
 */
 
-*{
-	box-sizing: border-box;
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+.wrapper h1, h2, h3{
+	font-family: "Exo";
+	text-align: center;
 }
 
-body{
-	margin: auto;
+.wrapper p {
+	font-family: "Questrial";
 }
 
-section.header{
-	display: flex;
+.header{
 	width: 100%;
 	border-style: solid;
+	text-align: center;
+	font-family: "Exo";
 }
 
-section.about{
+.block {
+	width: 100%;
+	background-color: white;
+	border-color: orange; 
+	text-align: center;
+	text-decoration: underline;
+}
+
+.block p {
+	text-align: center;
+
+}
+.subblock {
+	text-align: center;
+	background-color: white;
+}
+
+.table, th, td{
+	width: 100%;
+	border: 1px solid black;
+	background-color: white;
+	text-decoration-color: #08708A;
+	padding: 5px;
+}
+.project {
+
+}
+
+#flex {
 	display: flex;
+	flex-wrap: wrap;
 }
 
-p.about{
-	display: inline-flex;
-	float: left;
-}
 
-section.course{
-	display: flex;
-}
 
-section.class{
-	display: flex;
-}
 
-section.projects{
-	overflow: hidden;
-	clear: both;
-}
-
-.project-one{
+.column {
+	background-color: white;
+	box-shadow: 3px 3px 3px #999;
+	padding: 5px;
+	flex-grow: 1;
 	border: 1px solid orange;
-	margin-top: 2%;
-	margin- right: 2%;
-	float: left;
+	width: 100%;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
 }
 
-.project-two{
-	border: 1px solid orange;
-	margin-top: 2%;
-	margin- right: 2%;
+.about img{
 	float: left;
+	height: 30%;
+	width: 30%;
+	margin-right: 20px;
+	max-width: 195px;
+
 }
-.project-three{
-	border: 1px solid orange;
-	margin-top: 2%;
-	margin- right: 2%;
-	float: left;
+#project-one {
+	text-align: left
 }
 
+#project-two {
+	text-align: left
+}
 
-
+#project-three {
+	text-align: left
+}
 
 
 
 /* Media Adjustment */
 
-@media (min-width: 922px){
+@media (min-width: 992px){
 
-	body{
-		position: relative;
-		width: 75%;
+	.container{
+		width: 90%;
 	}
 
+	.column{
+		width: 20%;
+	}
 
-	.project-one{
-		width: 32.5%;
+	#project-one {
 		text-align: left
 	}
-	.project-two{
-		width: 32.5%;
-		text-align: center;
-	}
-	.project-three{
-		width: 32.5%;
-		text-align: right;
 
+	#project-two {
+		text-align: center
+	}
+
+	#project-three {
+		text-align: right
 	}
 
 	section.projects{
@@ -97,9 +129,6 @@ section.projects{
 	}
 	section.course{
 		padding: 10%;
-	}
-	section.class{
-		padding:10%;
 	}
 }
 
@@ -107,24 +136,24 @@ section.projects{
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-	body{
-		position: relative;
-		width: 90%;
+	.container{
+		width: 95%;
 	}
 
-
-
-	.project-one{
-		width: 50%;
-		text-align: left;
+	.column{
+		width: 30%;
 	}
-	.project-two{
-		width: 50%;
-		text-align: right;
+
+	#project-one {
+	text-align: left
 	}
-	.project-three{
-		width: 100%;
-		text-align: center;
+
+	#project-two {
+	text-align: right
+	}
+
+	#project-three {
+	text-align: center
 	}
 
 	section.projects{
@@ -136,32 +165,31 @@ section.projects{
 	section.course{
 		padding: 10%;
 	}
-	section.class{
-		padding:10%;
-	}
+
 }
 
 @media (max-width: 767px) {
 
-	body{
-		position: relative;
-		width: 99%;
+	.container{
+		width: 80%;
 	}
 
+	.column{
+		width: 100%;
+	}
 
+	#project-one {
+		text-align: left
+	}
 
-	.project-one{
-		width: 98%;
-		text-align: left;
+	#project-two {
+		text-align: left
 	}
-	.project-two{
-		width: 98%;
-		text-align: left;
+
+	#project-three {
+		text-align: left
 	}
-	.project-three{
-		width: 98%;
-		text-align: left;
-	}
+
 
 	section.projects{
 		padding: 10%;
@@ -172,7 +200,5 @@ section.projects{
 	section.course{
 		padding: 10%;
 	}
-	section.class{
-		padding:10%;
-	}
+
 }
