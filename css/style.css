@@ -27,7 +27,7 @@
 
 }
 
-.wrapper p {
+.wrapper p, td, tr, ul{
 	font-family: "Questrial";
 }
 
@@ -53,18 +53,22 @@
 .subblock {
 	text-align: center;
 	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px solid #08708A;
 }
 
 .table, th, td{
-	width: 100%;
+	text-align: center;
+	width: 50%;
 	border: 1px solid black;
 	background-color: white;
 	text-decoration-color: #08708A;
 	padding: 5px;
+	margin-left: 25%;
+	margin-right: 15%;
 }
-.project {
 
-}
 
 #course-info {
 	text-align: center;
