@@ -4,12 +4,14 @@
 	Stylesheet for Portfolio
 */
 
+*{
+	cursor: crosshair;
+}
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	cursor: crosshair;
 	}
 
 .wrapper h1, h2, h3{

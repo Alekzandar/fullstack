@@ -11,28 +11,10 @@ The colors are as listed:
 #032B2F "Hunter" for text
 */
 
-.color_background {
-	color: "#DOD3C5"
-}
 
-.color_header {
-	color: "#D73A31"
-}
-
-.color_visited_link {
-	color: "#56B1BF"
-}
-
-.color_link {
-	color: "#08708A"
-}
-
-.color_paragraph {
-	color: "#032B2F"
-}
 
 body { 
-	background-color: #D0D3C5
+	background-color:  #e9f8e3
 }
 
 p {
