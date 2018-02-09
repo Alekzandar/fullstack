@@ -1,0 +1,177 @@
+/* 
+	Aleksandar Antonov
+	Bucknell University
+	Stylesheet for Portfolio
+*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+}
+
+section.header{
+	display: flex;
+	width: 100%;
+	border-style: solid;
+}
+
+section.about{
+	display: flex;
+}
+
+p.about{
+	display: inline-flex;
+	float: left;
+}
+
+section.course{
+	display: flex;
+}
+
+section.class{
+	display: flex;
+}
+
+section.projects{
+	display: flex;
+}
+
+.project-one{
+	border: 1px solid orange;
+	margin-top: 2%;
+	margin- right: 2%;
+	float: left;
+}
+
+.project-two{
+	border: 1px solid orange;
+	margin-top: 2%;
+	margin- right: 2%;
+	float: left;
+}
+.project-three{
+	border: 1px solid orange;
+	margin-top: 2%;
+	margin- right: 2%;
+	float: left;
+}
+
+
+
+
+
+
+/* Media Adjustment */
+
+@media (min-width: 922px){
+
+	body{
+		position: relative;
+		width: 75%;
+	}
+
+
+	.project-one{
+		width: 32.5%;
+		text-align: left
+	}
+	.project-two{
+		width: 32.5%;
+		text-align: center;
+	}
+	.project-three{
+		width: 32.5%;
+		text-align: right;
+
+	}
+
+	section.projects{
+		padding: 10%;
+	}
+	section.about{
+		padding: 10%;
+	}
+	section.course{
+		padding: 10%;
+	}
+	section.class{
+		padding:10%;
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	body{
+		position: relative;
+		width: 90%;
+	}
+
+
+
+	.project-one{
+		width: 50%;
+		text-align: left;
+	}
+	.project-two{
+		width: 50%;
+		text-align: right;
+	}
+	.project-three{
+		width: 100%;
+		text-align: center;
+	}
+
+	section.projects{
+		padding: 10%;
+	}
+	section.about{
+		padding: 10%;
+	}
+	section.course{
+		padding: 10%;
+	}
+	section.class{
+		padding:10%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	body{
+		position: relative;
+		width: 99%;
+	}
+
+
+
+	.project-one{
+		width: 98%;
+		text-align: left;
+	}
+	.project-two{
+		width: 98%;
+		text-align: left;
+	}
+	.project-three{
+		width: 98%;
+		text-align: left;
+	}
+
+	section.projects{
+		padding: 10%;
+	}
+	section.about{
+		padding: 10%;
+	}
+	section.course{
+		padding: 10%;
+	}
+	section.class{
+		padding:10%;
+	}
+}

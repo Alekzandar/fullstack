@@ -3,17 +3,26 @@
 <head>
 		<meta charset="utf-8">
 		<title>Aleksandar L. Antonov's Portfolio</title>
+		<meta name = "viewport" content = "width = device-with, initial-scale=1">
 		<link rel="stylesheet" href="fonts.css">
 		<link rel="stylesheet" href="palette.css">
+		<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1 class ="font_exo"><u>Web Portfolio</u></h1>
+
+<section class = "header">
+	<h1 class ="font_exo"><u>Web Portfolio</u></h1>
+</section>
 
 
-<section>
+
+<section class = "about">
 	<h3><tt>Hello, I'm Aleksandar L. Antonov.</tt></h3> 
-	<img src="standard.png" alt="Self" height="50%">
+
+	<section class = "portrait">
+		<img src="standard.png" alt="Self" height="50%">
+	</section>
 	<hr>
 
 	<h2>A Bit 'About Me': </h2>
@@ -29,13 +38,15 @@
 	</p>
 </section>
 
+
 <hr>
-<section>
+<section class = "course">
 	<h2>The Course:</h2>
 	<p><u>CSCI 379 - Full Web Stack Applications </u><br>
 		<u>Professor:</u> Alan Marchiori <br>
 		<u>Section:</u>   11:00 AM <br>
 	<br>
+	<div class = "work">
 	<h3>Course-Work And Assignments</h3>
 		<table border="1" >
 			<tr>
@@ -47,31 +58,30 @@
 				<td><a href="./fontfun.html">Exploring Fonts</a></td>
 			</tr>
 		</table>
-
-
-
-
+	</secton>
 	</p>
 </section>
 
-<section>
+
+
+<section class = "projects">
 	<h2>The Projects:</h2>
 
-	<section>
-		<h3>Project 1</h3>
-		<p> Reserved for future installment.</p>
-	</section>
+	<div class = "project-one">
+		<h3 class = "left">Project 1</h3>
+			<p> Reserved for future installment.</p>
+	</div>
 
-	<section>
-		<h3>Project 2</h3>
-		<p> Reserved for future installment.</p>
-	</section>
+	<div class = "project-two">
+		<h3 class = "center">Project 2</h3>
+			<p> Reserved for future installment.</p>
+	</div>
 
-	<section>
-		<h3>Project 3</h3>
-		<p> Reserved for future installment.</p>
-	</section>
+	<div class = "project-three">
+		<h3 class = "right ">Project 3</h3>
+			<p> Reserved for future installment.</p>
+	</div>
 </section>
 
-</body>\
+</body>
 </html>
