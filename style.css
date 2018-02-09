@@ -5,16 +5,17 @@
 */
 
 
-
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	cursor: crosshair;
 	}
 
 .wrapper h1, h2, h3{
 	font-family: "Exo";
 	text-align: center;
+	border: 1px solid orange;
 }
 
 .wrapper p {
@@ -36,10 +37,6 @@
 	text-decoration: underline;
 }
 
-.block p {
-	text-align: center;
-
-}
 .subblock {
 	text-align: center;
 	background-color: white;
@@ -59,6 +56,10 @@
 #flex {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+#course-info {
+	text-align: center;
 }
 
 
