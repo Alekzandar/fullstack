@@ -36,7 +36,8 @@ section.class{
 }
 
 section.projects{
-	display: flex;
+	overflow: hidden;
+	clear: both;
 }
 
 .project-one{
