@@ -9,25 +9,25 @@
 }
 
 .container {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
 	}
 
-.wrapper h1, h3{
+.container h1, h3{
 	font-family: "Exo";
-	text-align: center;
+
 
 }
 
-.wrapper h2{
+.container h2{
 	font-family: "Exo";
 	text-align: center;
 	border: 1px solid orange;
 
 }
 
-.wrapper p, td, tr, ul{
+.container p, td, tr, ul{
 	font-family: "Questrial";
 }
 
@@ -69,7 +69,6 @@
 	margin-right: 15%;
 }
 
-
 #course-info {
 	text-align: center;
 }
@@ -88,9 +87,7 @@
 	padding: 2px;
 	flex-grow: 1;
 	border: 1px solid orange;
-	width: 100%;
-	margin: 3px 3px 3px 3px;
-	text-align: center;
+	margin: 5px 5px 5px 5px;
 }
 
 .about img{
@@ -102,76 +99,35 @@
 
 
 }
-#project-one {
-	text-align: left
-}
-
-#project-two {
-	text-align: left
-}
-
-#project-three {
-	text-align: left
-}
 
 
 
 /* Media Adjustment */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px){
 
 	.container{
-		width: 95%;
-	}
 
-	.column{
-		width: 29%;
-	}
-
-	#project-one {
-	text-align: left
-	}
-
-	#project-two {
-	text-align: center
-	}
-
-	#project-three {
-	text-align: right
-	}
-
-	section.projects{
-		padding: 5px;
-	}
-	section.about{
-		padding: 5px;
-	}
-	section.course{
-		padding: 5px;
-	}
-
-}
-
-@media (min-width: 991px){
-
-	.container{
-		width: 95%;
+		width: 90%;
 	}
 
 	.column{
 		width: 20%;
 	}
 
-	#project-one {
-		text-align: center
+	#project_one {
+		width: 32.5%;
+		text-align: center;
 	}
 
-	#project-two {
-		text-align: center
+	#project_two {
+		width: 32.5%;
+		text-align: center;
 	}
 
-	#project-three {
-		text-align: center
+	#project_three {
+		width: 32.5%;
+		text-align: center;
 	}
 
 	section.projects{
@@ -183,6 +139,39 @@
 	section.course{
 		padding: 10px;
 	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.container{
+		width: 90%;
+	}
+
+	#project_one {
+		width: 50%;
+		text-align: left;
+	}
+
+	#project_two {
+		text-align: right;
+		width: 50%;
+	}
+
+	#project_three {
+		width: 100%;
+		text-align: center;
+	}
+
+	section.projects{
+		padding: 5px;
+	}
+	section.about{
+		padding: 5px;
+	}
+	section.course{
+		padding: 5px;
+	}
+
 }
 
 
@@ -190,6 +179,7 @@
 @media (max-width: 767px) {
 
 	.container{
+
 		width: 80%;
 	}
 
@@ -197,24 +187,24 @@
 		width: 100%;
 	}
 
-	#project-one {
-		text-align: left
+	#project_one {
+		text-align: center
 	}
 
-	#project-two {
-		text-align: left
+	#project_two {
+		text-align: center
 	}
 
-	#project-three {
-		text-align: left
+	#project_three {
+		text-align: center
 	}
 
 
 	section.projects{
-		padding: 5px;
+		padding: 20px;
 	}
 	section.about{
-		padding: 5px;
+		padding: 10px;
 	}
 	section.course{
 		padding: 5px;
