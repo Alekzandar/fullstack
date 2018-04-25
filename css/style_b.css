@@ -1,0 +1,211 @@
+/* 
+	Aleksandar Antonov
+	Bucknell University
+	Stylesheet for Portfolio
+*/
+
+*{
+	cursor: crosshair;
+}
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.container h1, h3{
+	font-family: "Exo";
+
+
+}
+
+.container h2{
+	font-family: "Exo";
+	text-align: center;
+	border: 1px solid orange;
+
+}
+
+.container p, td, tr, ul{
+	font-family: "Questrial";
+}
+
+.header{
+	width: 100%;
+	border-style: solid;
+	text-align: center;
+	font-family: "Exo";
+}
+
+.block {
+	width: 100%;
+	background-color: white;
+	border-color: orange; 
+	text-align: center;
+	text-decoration: underline;
+}
+
+.block p {
+	text-align: center;
+
+}
+.subblock {
+	text-align: center;
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px solid #08708A;
+}
+
+.table, th, td{
+	text-align: center;
+	width: 50%;
+	border: 1px solid black;
+	background-color: white;
+	text-decoration-color: #08708A;
+	padding: 5px;
+
+}
+
+#course-info {
+	text-align: center;
+}
+
+#flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+.column {
+	background-color: white;
+	box-shadow: 3px 3px 3px #999;
+	padding: 2px;
+	flex-grow: 1;
+	border: 1px solid orange;
+	margin: 5px 5px 5px 5px;
+}
+
+.about img{
+	float: left;
+	height: 30%;
+	width: 30%;
+	margin-right: 20px;
+	max-width: 140px;
+
+
+}
+
+
+
+/* Media Adjustment */
+
+@media (min-width: 992px){
+
+	.container{
+
+
+	}
+
+	.column{
+
+	}
+
+	#project_one {
+
+		text-align: center;
+	}
+
+	#project_two {
+
+		text-align: center;
+	}
+
+	#project_three {
+
+		text-align: center;
+	}
+
+	section.projects{
+		padding: 5px;
+	}
+	section.about{
+		padding: 10px;
+	}
+	section.course{
+		padding: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.container{
+
+	}
+
+	#project_one {
+
+		text-align: left;
+	}
+
+	#project_two {
+		text-align: right;
+
+	}
+
+	#project_three {
+
+		text-align: center;
+	}
+
+	section.projects{
+		padding: 5px;
+	}
+	section.about{
+		padding: 5px;
+	}
+	section.course{
+		padding: 5px;
+	}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+	.container{
+
+	}
+
+	.column{
+
+	}
+
+	#project_one {
+		text-align: center
+	}
+
+	#project_two {
+		text-align: center
+	}
+
+	#project_three {
+		text-align: center
+	}
+
+
+	section.projects{
+		padding: 5px;
+	}
+	section.about{
+		padding: 10px;
+	}
+	section.course{
+		padding: 5px;
+	}
+
+}
